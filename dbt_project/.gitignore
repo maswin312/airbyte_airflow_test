@@ -8,3 +8,4 @@ logs/
 
 #User cookie
 .user.yml
+key.json

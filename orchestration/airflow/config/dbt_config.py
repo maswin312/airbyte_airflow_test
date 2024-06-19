@@ -10,7 +10,7 @@ google_config = GoogleCloudServiceAccountFileProfileMapping(
     conn_id="dbt_file_connection",
     profile_args={
         "dataset": "transformed_data",
-        "location": "US", # Update if you're using a different location for your dataset
+        "location": "asia-southeast2", # Update if you're using a different location for your dataset
         "threads": 1,
         "retries": 1,
         "priority": "interactive",

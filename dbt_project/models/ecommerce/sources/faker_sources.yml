@@ -2,7 +2,7 @@ version: 2
 
 sources:
     - name: faker
-      project: your_project_id # Update this field with your BigQuery project ID
+      project: belajar-data-maswin # Update this field with your BigQuery project ID
       dataset: raw_data
       tables:
           - name: users
